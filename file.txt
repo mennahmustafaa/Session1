@@ -1,0 +1,52 @@
+theia@theia-mennahmustaf:/home/project$ mkdi
+ir "mennah mustafa"
+theia@theia-mennahmustaf:/home/project$ cd "mennah mustafa"
+theia@theia-mennahmustaf:/home/project/mennah mustafa$ mkdir "Documents"
+theia@theia-mennahmustaf:/home/project/mennah mustafa$ cd "Documents"
+theia@theia-mennahmustaf:/home/project/mennah mustafa/Documents$ touch file1.txt file2.t.txtile3.
+theia@theia-mennahmustaf:/home/project/mennah mustafa/Documents$ ls
+file1.txt  file2.txt  file3.txt
+theia@theia-mennahmustaf:/home/project$ mkdir "mennah mustafa"
+mkdir: cannot create directory ‘mennah mustafa’: File exists
+theia@theia-mennahmustaf:/home/project$ rm -r "mennah mustafa"
+theia@theia-mennahmustaf:/home/project$ rm -r "Documents"
+rm: cannot remove 'Documents': No such file or directory
+theia@theia-mennahmustaf:/home/project$  mkdir "mennah mustafa"
+theia@theia-mennahmustaf:/home/project$ cd "mennah mustafa"
+theia@theia-mennahmustaf:/home/project/mennah mustafa$ mkdir "Documents"
+theia@theia-mennahmustaf:/home/project/mennah mustafa$ cd "Documents"
+theia@theia-mennahmustaf:/home/project/mennah mustafa/Documents$ touch file1.txt file2.txt file3.txt
+theia@theia-mennahmustaf:/home/project/mennah mustafa/Documents$ ls
+file1.txt  file2.txt  file3.txt
+theia@theia-mennahmustaf:/home/project/mennah mustafa/Documents$ cd ..
+theia@theia-mennahmustaf:/home/project/mennah mustafa$ touch .hidden_file
+theia@theia-mennahmustaf:/home/project/mennah mustafa$ ls -a
+.  ..  Documents  .hidden_file
+theia@theia-mennahmustaf:/home/project/mennah mustafa$ cd Documents
+theia@theia-mennahmustaf:/home/project/mennah mustafa/Documents$ mkdir "./-" 
+theia@theia-mennahmustaf:/home/project/mennah mustafa/Documents$ cd "-"
+/home/project/mennah mustafa
+theia@theia-mennahmustaf:/home/project/mennah mustafa$ cd ..
+theia@theia-mennahmustaf:/home/project$ cp -r Documents  "My_Documents"
+cp: cannot stat 'Documents': No such file or directory
+theia@theia-mennahmustaf:/home/project$ cp -r "Documents" "My_Documents"
+cp: cannot stat 'Documents': No such file or directory
+theia@theia-mennahmustaf:/home/project$ mkdir "Documents"
+theia@theia-mennahmustaf:/home/project$ cd "Documents"
+theia@theia-mennahmustaf:/home/project/Documents$  touch file1.txt file2.txt file3.txt
+theia@theia-mennahmustaf:/home/project/Documents$ ls
+file1.txt  file2.txt  file3.txt
+theia@theia-mennahmustaf:/home/project/Documents$ cp -r Documents "My_Documents"
+cp: cannot stat 'Documents': No such file or directory
+theia@theia-mennahmustaf:/home/project/Documents$ cd ..
+theia@theia-mennahmustaf:/home/project$ cp -r Documents "My_Documents"
+theia@theia-mennahmustaf:/home/project$ ls
+ Documents  'mennah mustafa'   My_Documents   Untitled   Untitled.txt
+theia@theia-mennahmustaf:/home/project$ cat .hidden_file
+cat: .hidden_file: No such file or directory
+theia@theia-mennahmustaf:/home/project$ $ touch .hidden_file
+bash: $: command not found
+theia@theia-mennahmustaf:/home/project$ cd "Documents"
+theia@theia-mennahmustaf:/home/project/Documents$ cd "mennah mustafa"
+bash: cd: mennah mustafa: No such file or directory
+theia@theia-mennahmustaf:/home/project/Documents$ c 
