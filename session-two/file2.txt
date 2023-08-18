@@ -1,9 +1,13 @@
 osc@pop-os:~$ ls
 Desktop    file.txt       Music     Public     Videos
 Downloads  mennahmustafa  Pictures  Templates  zyad
+
 osc@pop-os:~$ cd Downloads/
+
 osc@pop-os:~/Downloads$ ls
+
 Updated-Task-02  Updated-Task-02.zip
+
 osc@pop-os:~/Downloads$ unzip ^C
 osc@pop-os:~/Downloads$ unzip Updated-Task-02.zip
 Archive:  Updated-Task-02.zip
