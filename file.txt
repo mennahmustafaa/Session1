@@ -1,0 +1,25 @@
+osc@pop-os:~$ mkdir mennahmustafa
+osc@pop-os:~$ cd mennahmustafa
+osc@pop-os:~/mennahmustafa$ mkdir Documents
+osc@pop-os:~/mennahmustafa$ cd Documents
+osc@pop-os:~/mennahmustafa/Documents$ touch file1.txt file2.txt file3.txt 
+osc@pop-os:~/mennahmustafa/Documents$ ls
+file1.txt  file2.txt  file3.txt
+osc@pop-os:~/mennahmustafa/Documents$ cd ..
+osc@pop-os:~/mennahmustafa$ touch .hidden_file
+osc@pop-os:~/mennahmustafa$ ls -a
+.  ..  Documents  .hidden_file
+osc@pop-os:~/mennahmustafa$ nano Documents/file1.txt
+osc@pop-os:~/mennahmustafa$ cat Documents/file1.txt
+osc@pop-os:~/mennahmustafa$ cd Documents
+osc@pop-os:~/mennahmustafa/Documents$ mkdir "-"
+osc@pop-os:~/mennahmustafa/Documents$ cd "-"
+/home/osc/mennahmustafa
+osc@pop-os:~/mennahmustafa$ cp -r Documents My_Documents
+osc@pop-os:~/mennahmustafa$ cat .hidden_file
+osc@pop-os:~/mennahmustafa$ mv Documents/dile2.txt Documents/file3.txt.mennahmustafa
+mv: cannot stat 'Documents/dile2.txt': No such file or directory
+osc@pop-os:~/mennahmustafa$ mv Documents/file2.txt Documents/file3.txt.mennahmustafa
+osc@pop-os:~/mennahmustafa$ cd ..
+osc@pop-os:~$ rm -r mennahmustafa
+
