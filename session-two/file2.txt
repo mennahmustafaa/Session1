@@ -1,0 +1,533 @@
+osc@pop-os:~$ ls
+Desktop    file.txt       Music     Public     Videos
+Downloads  mennahmustafa  Pictures  Templates  zyad
+osc@pop-os:~$ cd Downloads/
+osc@pop-os:~/Downloads$ ls
+Updated-Task-02  Updated-Task-02.zip
+osc@pop-os:~/Downloads$ unzip ^C
+osc@pop-os:~/Downloads$ unzip Updated-Task-02.zip
+Archive:  Updated-Task-02.zip
+replace Updated-Task-02/README.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: n
+replace Updated-Task-02/.level-1.tar? [y]es, [n]o, [A]ll, [N]one, [r]ename: [n]
+error:  invalid response [[n]]
+replace Updated-Task-02/.level-1.tar? [y]es, [n]o, [A]ll, [N]one, [r]ename: no
+osc@pop-os:~/Downloads$ ls
+Updated-Task-02  Updated-Task-02.zip
+osc@pop-os:~/Downloads$ cd Updated-Task-02/
+osc@pop-os:~/Downloads/Updated-Task-02$ ls
+README.txt
+osc@pop-os:~/Downloads/Updated-Task-02$ cat README.txt
+Locate what you can't see.
+Find out what to do with it.
+osc@pop-os:~/Downloads/Updated-Task-02$ ls -a
+.  ..  .level-1.tar  README.txt
+osc@pop-os:~/Downloads/Updated-Task-02$ tar -xf .level-1.tar
+osc@pop-os:~/Downloads/Updated-Task-02$ ls
+README.txt
+osc@pop-os:~/Downloads/Updated-Task-02$ cat README.txt
+Locate what you can't see.
+Find out what to do with it.
+osc@pop-os:~/Downloads/Updated-Task-02$ ls -a
+.  ..  .level-1  .level-1.tar  README.txt
+osc@pop-os:~/Downloads/Updated-Task-02$ cd -level-1/
+bash: cd: -l: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+osc@pop-os:~/Downloads/Updated-Task-02$ cd .level-1/
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1$ ls
+level-2  README.txt
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1$ cat README.txt
+Decompress "level-2".
+Hint: Most compression tools require it's suffix.
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1$ tar -xf level-2
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1$ ls
+level-2  README.txt
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1$ cd level-2/
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ ls
+01VzXCtEZS  AVR4cOJJui  F7HxYNlWa1  kuDj7Ti4Id  pRQVevx1kv  vm5P2xLF3s
+09tuxAUkSZ  AXkzOy8ZzP  feBbPjPHsA  kVQzoTdmBO  PVhcqo825N  VMVoKBX4Qu
+0MaqBh51eE  b8L3KxPJL3  FKtcWd8ViA  L3QwW94Azo  Q6QURkVvYf  vOcM3EYMXw
+1Rc48mLISP  bc83b2Byu2  fky7p46DOi  l6FQ8rGXcW  QIGyaTtmlW  VUOJouKqL9
+1t7LeNZeIl  BeSbKu0Ogb  fSikeo7Jtz  l8fShvYkRA  QirM8dLKSD  VxWCuMyoCO
+2dBiyDY1PQ  BsdD4ojJkc  fTBdzWqgkc  lcVizkoO1R  Qv3QTzvZC1  w9ophYtx44
+2tqNyIRWZk  bvSabnQtuB  FUSxQX2TeD  lvEy6vrtZe  README.txt  waa5BUbYjL
+3aI6ZRWi7g  ciyaIBrj64  g18DV62wEd  LXdwN4DGye  rHC2JXoQSc  wfbzcLn49x
+3HClX3dFMm  clktsGviqW  gB9k1O4ZT6  lxQpP8fJrM  rjS1PORSqI  WU2NIZw5bL
+3nhuQzOgpI  CoXO2qfhv8  gBT5u0vLT5  mIQgRJXCLp  rn4s52kOCO  WWgF2QTu1U
+40Mg6vDbYN  cqxENw21F1  Gf0hDzawoe  mLD2604WjZ  rnTFX18Jh9  WxGYCzojb5
+4bq72IzcAj  cTJdoZGT00  Gi0sWVVQmE  mMwQyrbtaZ  rTAkta2aW2  WzkBDyZf09
+4CkUBprXze  cUJtGyfwcE  GqeOr84K6i  Mn1k5s3x2R  rzz4HDYtQb  x2OxGPBNwZ
+4OAvfgFenY  cuL74htcTP  gUm1Kw3MsJ  mTJFxGhibA  s82TBxnZgd  X7by8vw474
+4Qm9FLdd1E  cYLRnO8xIB  GuxvN3cJ7U  n80qgsvhlQ  SkWLO4DmJj  xiRKbhzAt6
+4TqWZorrCe  D240Im7S6f  H2TS1vp6Xt  n8QxXKvUat  soPx5vMfvS  Xnmws6DuHJ
+54is18fJ6D  dcWFp0gN0U  HC3gnSrNHL  n9Gy45gDYd  SpGacqvoQe  Y2WinDQzOb
+5CnJF4NcXe  dkbSpLYJE5  HDe7NHRINO  NABe6RrZS9  Sv7z35zbDG  y7U81AE7BP
+6jKgIUUWGx  DQ3kjLgCUV  HRHgAeIQKP  NB8PtjcBPu  T4TiKdPbRw  yc0GFVKDtL
+6LythIyWzQ  dW436qn2Pa  hsM9mQuMTH  NuvecJk6rH  tmDRcrdYa9  YH3RBGocdA
+6QcByCct9B  DWahK49MnT  hynub0MKNl  nV9Fht2ABW  TynxkdcmfZ  ymuoaRLefH
+7B5l8AC1M8  dwmlaLoghH  Ib1jBtgkP4  O0Jt20BDT8  u8APo7fuFv  yWegzIJdDb
+7dnQ0OZO7U  DYCdqY7wJN  iJfohlDIrt  o1hEPIsnq0  uCBBCPnmb2  yWY8iLmL2v
+7f6nrbSyXM  E0bi5j8X9V  IXzIL2c9IA  o5zluFzkcg  uH7zN1UJSF  Yx2PUbl2gA
+8HuZDGUf7D  EC1LKYOR0Z  jbZwCGWF1u  oATDmz0CAK  UkoXWlT8ck  ZDe6elrEn5
+8lNsncDmgT  ECIShbzsBE  jGu9MApzJB  OBfROJ7kKU  UkXg7Lp9iV  ZgiaL4uwSD
+a8wKwwWNRJ  EDPOSQuyWk  JiMEslX4PO  OEQ9RG7Cam  Uo2uLQHfWm  ZhfPkBCn6B
+ABtpOP8TR9  EJd4UALueA  JVucZ5s2sO  OlDXrxU8tn  URJcbPH7ig  zQ85ieoBzD
+AbyVd8kDq7  emEeo94yqd  jzjKDCAuJh  OQUNDxbuAf  uUeLfbjNyx  zTpHflQtBt
+aD09T4P1xb  eRz0wDJzB6  k0KGHDEFmp  P9w2t9K9Ju  UUrQyToe6M  ZwCSnEFDCS
+afHUHOaYAb  Etsj7NECd9  KNXMn8sBL8  PBQjGeeXZ2  uYt23HMkvu  zXOU7yVyjx
+AKf6S1hWVZ  eTY7qTsykD  KO4TANambB  PDsc45eDhU  v2LInrvkDO
+AofrZBGKhB  evJEy0ce9D  kPIkdmGR9B  po63smRLBt  v9kNm4bENt
+aT6OddrPAr  f4sJ94QCRL  kr6RDEYCed  pptcUXKeGS  VkL2bz9W98
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ cat README.txt
+Locate "level-3".
+Use a general method to decompress it.
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ find -name level-3
+./gBT5u0vLT5/level-3
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2$ cd ./gBT5u0vLT5/
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5$ ls
+level-3
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5$ tar -xf level-3
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5$ ls
+level-3
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5$ cd level-3
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ ls
+00aBxtql7r  9QBLcfEf91  FeBBLsJEYS  K56S3V4AQ6  Ou1q6zOh5n  ufdeX2Dk7C
+0aba2tPi4R  a6HPyy5Mz5  FJsgrBEwbJ  K9kyHBbw7y  oV3aef60WL  v2ME2J4GuF
+0QYBUNJixX  A8SqBitLRB  flbjrqIXMS  Kfce3CFjhh  OXZ3OOGJ7O  V64A9vKnYq
+17pfO4tY4m  aFjSvqXqWE  fn95Z2sG3o  KJBdbwTmzD  oZ5HOQe6X0  vkaOISlk2I
+1NBA3mJTQC  AI8sfDgnhT  FYrh0rmC4q  kkIu8kVXLo  p194n4sSpi  vLWtq7N2aR
+1pnvifRmA6  AJtW9NcRLy  G9UhKYNLgv  kOIOppD8hx  p3ARvi0q4F  VneCQhwmfv
+22ix6enm8X  ANRcGwDkvK  GaMed1WIDN  kp1ujuDGKO  p6PVEBfSyK  vUbRKbYlKR
+2GsF4Kn1PG  ayHSb1kjNd  gcb0bfLbVM  krWRFtvYDP  PaOzJn0sJV  Vw5Jm3saUP
+2IFaRh0Jxc  b4BF572o41  gfLQDXjJAW  kT3eEAfVcY  PDJdFxfgvh  vz1uLzTKjO
+30msooUqJf  b957oPA24t  Gksn5ca8Jn  kwmQK5z76U  penDnjNMQc  VZw2jtUdZD
+3Ig28f7Xa8  Bb0kZiNxDz  gOWuBZZgn2  L5DOn3iY18  pH9s3o8foP  W6AdwbmalK
+3SSDrwrwmt  BbreWoCXSv  GPaN65ikSl  L8ZzpZTLz5  pI49N7Zoxn  WfUKyzFeEv
+3TpnDd6PaY  bduLsR7v4K  gu78Zpnknw  LeUtklcfmE  Pmf5TqkkYg  WFyKhZdOcx
+3wTdqmDig6  bOKXTvk63r  gu92R3c92I  LKfMizQQjE  pO4Lt5DPrX  wgibrPHhJq
+3XXNloi4gV  BrJvEu79eg  gupiPOsJzC  lowIuX2RQI  psmL4dk69Y  WhTtCYas3M
+3YhvETOVcv  BTf86zJsB3  hb4zKjD5G4  LtH4X99Uw3  pXXxEWcKkz  wJC19bchr2
+4jFmUBgygR  byVoAmiOqs  hBv1LejGKu  LZ5jebusoa  q4gh4nODZa  WLuasYnMvP
+4vG2fYLy6B  bze36b6xjZ  Hf8ovJhWKI  M1vV6QxnH1  qFO0JDSF0N  Wm14GdEGcm
+53IaK7n1np  C5KrlOGYlu  hGCeu2NgZ5  m59pSiQG2p  Qh9GBAd3mF  wpJyCPLODS
+5H5OLdA8qE  cDfzzIGULi  HuSBc8QKYi  m7lRDpRTUJ  QM053Y9Vw1  wpoGQ7WmSg
+5ME7YKcHsa  cF1AG2dtLr  HXq7gqQZ5Z  MaqkHpS39h  R0LpA1qK4F  WSxUR7IJd8
+5tAchjHlmE  cjcKUQDGLl  i4CkeVfT7S  MKQErXMkPE  R6okint5JZ  wZ4LJKpHW6
+5tJnO1Mwzf  cKiyNtE0yD  iCR4qC97HM  moQuVgMB1f  R82WkcyQAx  x2CDPgz6Jk
+5VoPA03kvi  ClbTpohwVU  IE4xWwbydi  mRET49bBGR  rcEkx0b0WC  x3Nvoy3Ucl
+6AJpxbHYkm  cStCLsSELl  IiLRIuK1Fi  mu6c42Y1qo  README.txt  x3SkxfEItU
+6C8RwQ9kGP  ctnOoPIga1  IKeqpTmvmW  mwILTjPhCP  rgNTkxVkxN  X62Vq1yIyL
+6hnWZbro0I  cWRi45wacA  ioOe8b7TsJ  mxG418at98  RnL5L0QLbY  X6lkChFKsj
+6JPHCI1K8M  cWZv9iI87X  iOplykVsBo  mydABLXwyL  RPZAvV75tm  XapfbudtZp
+6lie6mPCRe  cX6YaqFDFY  ip23ESdwGT  n4d9SlSzcV  RU4rJzjPfg  xBsGYZHomA
+6mnK6keHIi  D5JYr3I592  IygdcTaoYP  n4MCXv5XM2  RWWLnFwGtv  xigSiLU79u
+6mpTfHgnlX  dBJSXzmpb1  iymCtoFUVf  N5lXyVotHN  rwZwqdxHhJ  XkrAGaosYZ
+6vigp6VM7d  Dd9KxIjxSB  j3JsNAEsm1  nBoQgGxoGX  rzSTDqa7oV  xRxKkdCTU8
+6ZJgIXN3P0  dK320XCmR0  J3K5BY52dp  NdkrRTZmr9  SaaZymLdoG  xYCpOSRLsl
+71qxiSKgAY  DKiaUm3WBb  J5feTUwPso  NHag0dTW3U  SaQtx8SNld  xYlmccmE5f
+74gKRNrKVf  Doi1I9Z8TE  jahdjqT54b  nlgqxKuRC3  sf7ajd5INC  Y0nB0Ep1my
+77RwxhcZTx  dqbKkDKbZl  JArjmQWPVq  NLM96g2hH3  skVRxkHK04  y1IAp2YdZc
+7C4OyiuQc4  dtLZdglPV3  JBDnoFKLcx  Nmuh6DvLkc  sNrtW0eiZF  Ye8R8ZOvJ9
+7nMGZvigiL  Dux6sHDdCW  JbMcWq9tku  nR711EHtmU  SqAZPx7CbA  ygasPrK3kG
+7PFGHcmfa2  EHm7bcCxj1  Jc0EEC4sua  nSC9OkT1E3  SRgPbWeEG6  YgeyHmPrtP
+7sxFwD2jGw  epBL6naqQR  JgVwSWAUsr  nwt49CVPtC  sRhTcN4PIw  ysdoXYcYQq
+82aRYKaCZB  ePj0HMi3nh  JlhNaDm4f7  O009zeKkif  sVyNLUXzut  YVAPjrh8Up
+88exEg2MMo  Eqk382soFH  JnOT2WHKbE  O0V7mQCicJ  T0gYx5T5ks  zEmK04yIqc
+8IOqsSAWIo  eT21MMr22o  jpO4wGMT57  o6Q2i1NUXc  Tbi1MdwiMX  ZenzUsQydR
+8OLXyd5ai0  eT909HWyck  JqAekDHYif  OAbH1oFg57  tEgA7tGwxB  zet1AFeHNl
+8u4f62oAYb  ETRyNzIpYk  jrMKucOmtp  OaRp7TV8pe  TezFlyJz9o  zghxQE4JGJ
+8X1ovlX6ex  ev8BCScTMa  jVBkVAbTHj  ObIefWWqqM  TFkiwAHDrG  ZNq1fiVP6F
+9CA6eRBprt  F5Db7l8s9j  jVGv0HeZvG  OFx3U24MoP  Tt0xmDrg4Y  zTfi6AwgZQ
+9GqYmpQsAS  F9OYJjkGiB  jvyPQ8Z8ht  OHWTswrtBk  tZCE2HQg8s  zxmnKldpmY
+9my7brVWmo  fCLOGDR05y  JYdPDFpOIe  ojc7SuLzMV  uAw4PKT7E0  zzgiKI2xSS
+9NNnGuH7A1  Fdvgo1aqTT  k2yYJNQcLu  orzpz7CBBQ  udqz57oeuX  zZU6ymQky6
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ cat README.txt
+You're seeking a file with a certain size.
+Find the link to get the size.
+
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ ls
+00aBxtql7r  9QBLcfEf91  FeBBLsJEYS  K56S3V4AQ6  Ou1q6zOh5n  ufdeX2Dk7C
+0aba2tPi4R  a6HPyy5Mz5  FJsgrBEwbJ  K9kyHBbw7y  oV3aef60WL  v2ME2J4GuF
+0QYBUNJixX  A8SqBitLRB  flbjrqIXMS  Kfce3CFjhh  OXZ3OOGJ7O  V64A9vKnYq
+17pfO4tY4m  aFjSvqXqWE  fn95Z2sG3o  KJBdbwTmzD  oZ5HOQe6X0  vkaOISlk2I
+1NBA3mJTQC  AI8sfDgnhT  FYrh0rmC4q  kkIu8kVXLo  p194n4sSpi  vLWtq7N2aR
+1pnvifRmA6  AJtW9NcRLy  G9UhKYNLgv  kOIOppD8hx  p3ARvi0q4F  VneCQhwmfv
+22ix6enm8X  ANRcGwDkvK  GaMed1WIDN  kp1ujuDGKO  p6PVEBfSyK  vUbRKbYlKR
+2GsF4Kn1PG  ayHSb1kjNd  gcb0bfLbVM  krWRFtvYDP  PaOzJn0sJV  Vw5Jm3saUP
+2IFaRh0Jxc  b4BF572o41  gfLQDXjJAW  kT3eEAfVcY  PDJdFxfgvh  vz1uLzTKjO
+30msooUqJf  b957oPA24t  Gksn5ca8Jn  kwmQK5z76U  penDnjNMQc  VZw2jtUdZD
+3Ig28f7Xa8  Bb0kZiNxDz  gOWuBZZgn2  L5DOn3iY18  pH9s3o8foP  W6AdwbmalK
+3SSDrwrwmt  BbreWoCXSv  GPaN65ikSl  L8ZzpZTLz5  pI49N7Zoxn  WfUKyzFeEv
+3TpnDd6PaY  bduLsR7v4K  gu78Zpnknw  LeUtklcfmE  Pmf5TqkkYg  WFyKhZdOcx
+3wTdqmDig6  bOKXTvk63r  gu92R3c92I  LKfMizQQjE  pO4Lt5DPrX  wgibrPHhJq
+3XXNloi4gV  BrJvEu79eg  gupiPOsJzC  lowIuX2RQI  psmL4dk69Y  WhTtCYas3M
+3YhvETOVcv  BTf86zJsB3  hb4zKjD5G4  LtH4X99Uw3  pXXxEWcKkz  wJC19bchr2
+4jFmUBgygR  byVoAmiOqs  hBv1LejGKu  LZ5jebusoa  q4gh4nODZa  WLuasYnMvP
+4vG2fYLy6B  bze36b6xjZ  Hf8ovJhWKI  M1vV6QxnH1  qFO0JDSF0N  Wm14GdEGcm
+53IaK7n1np  C5KrlOGYlu  hGCeu2NgZ5  m59pSiQG2p  Qh9GBAd3mF  wpJyCPLODS
+5H5OLdA8qE  cDfzzIGULi  HuSBc8QKYi  m7lRDpRTUJ  QM053Y9Vw1  wpoGQ7WmSg
+5ME7YKcHsa  cF1AG2dtLr  HXq7gqQZ5Z  MaqkHpS39h  R0LpA1qK4F  WSxUR7IJd8
+5tAchjHlmE  cjcKUQDGLl  i4CkeVfT7S  MKQErXMkPE  R6okint5JZ  wZ4LJKpHW6
+5tJnO1Mwzf  cKiyNtE0yD  iCR4qC97HM  moQuVgMB1f  R82WkcyQAx  x2CDPgz6Jk
+5VoPA03kvi  ClbTpohwVU  IE4xWwbydi  mRET49bBGR  rcEkx0b0WC  x3Nvoy3Ucl
+6AJpxbHYkm  cStCLsSELl  IiLRIuK1Fi  mu6c42Y1qo  README.txt  x3SkxfEItU
+6C8RwQ9kGP  ctnOoPIga1  IKeqpTmvmW  mwILTjPhCP  rgNTkxVkxN  X62Vq1yIyL
+6hnWZbro0I  cWRi45wacA  ioOe8b7TsJ  mxG418at98  RnL5L0QLbY  X6lkChFKsj
+6JPHCI1K8M  cWZv9iI87X  iOplykVsBo  mydABLXwyL  RPZAvV75tm  XapfbudtZp
+6lie6mPCRe  cX6YaqFDFY  ip23ESdwGT  n4d9SlSzcV  RU4rJzjPfg  xBsGYZHomA
+6mnK6keHIi  D5JYr3I592  IygdcTaoYP  n4MCXv5XM2  RWWLnFwGtv  xigSiLU79u
+6mpTfHgnlX  dBJSXzmpb1  iymCtoFUVf  N5lXyVotHN  rwZwqdxHhJ  XkrAGaosYZ
+6vigp6VM7d  Dd9KxIjxSB  j3JsNAEsm1  nBoQgGxoGX  rzSTDqa7oV  xRxKkdCTU8
+6ZJgIXN3P0  dK320XCmR0  J3K5BY52dp  NdkrRTZmr9  SaaZymLdoG  xYCpOSRLsl
+71qxiSKgAY  DKiaUm3WBb  J5feTUwPso  NHag0dTW3U  SaQtx8SNld  xYlmccmE5f
+74gKRNrKVf  Doi1I9Z8TE  jahdjqT54b  nlgqxKuRC3  sf7ajd5INC  Y0nB0Ep1my
+77RwxhcZTx  dqbKkDKbZl  JArjmQWPVq  NLM96g2hH3  skVRxkHK04  y1IAp2YdZc
+7C4OyiuQc4  dtLZdglPV3  JBDnoFKLcx  Nmuh6DvLkc  sNrtW0eiZF  Ye8R8ZOvJ9
+7nMGZvigiL  Dux6sHDdCW  JbMcWq9tku  nR711EHtmU  SqAZPx7CbA  ygasPrK3kG
+7PFGHcmfa2  EHm7bcCxj1  Jc0EEC4sua  nSC9OkT1E3  SRgPbWeEG6  YgeyHmPrtP
+7sxFwD2jGw  epBL6naqQR  JgVwSWAUsr  nwt49CVPtC  sRhTcN4PIw  ysdoXYcYQq
+82aRYKaCZB  ePj0HMi3nh  JlhNaDm4f7  O009zeKkif  sVyNLUXzut  YVAPjrh8Up
+88exEg2MMo  Eqk382soFH  JnOT2WHKbE  O0V7mQCicJ  T0gYx5T5ks  zEmK04yIqc
+8IOqsSAWIo  eT21MMr22o  jpO4wGMT57  o6Q2i1NUXc  Tbi1MdwiMX  ZenzUsQydR
+8OLXyd5ai0  eT909HWyck  JqAekDHYif  OAbH1oFg57  tEgA7tGwxB  zet1AFeHNl
+8u4f62oAYb  ETRyNzIpYk  jrMKucOmtp  OaRp7TV8pe  TezFlyJz9o  zghxQE4JGJ
+8X1ovlX6ex  ev8BCScTMa  jVBkVAbTHj  ObIefWWqqM  TFkiwAHDrG  ZNq1fiVP6F
+9CA6eRBprt  F5Db7l8s9j  jVGv0HeZvG  OFx3U24MoP  Tt0xmDrg4Y  zTfi6AwgZQ
+9GqYmpQsAS  F9OYJjkGiB  jvyPQ8Z8ht  OHWTswrtBk  tZCE2HQg8s  zxmnKldpmY
+9my7brVWmo  fCLOGDR05y  JYdPDFpOIe  ojc7SuLzMV  uAw4PKT7E0  zzgiKI2xSS
+9NNnGuH7A1  Fdvgo1aqTT  k2yYJNQcLu  orzpz7CBBQ  udqz57oeuX  zZU6ymQky6
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ ls -l
+total 804
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 00aBxtql7r
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 0aba2tPi4R
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 0QYBUNJixX
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 17pfO4tY4m
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 1NBA3mJTQC
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 1pnvifRmA6
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 22ix6enm8X
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 2GsF4Kn1PG
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 2IFaRh0Jxc
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 30msooUqJf
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 3Ig28f7Xa8
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 3SSDrwrwmt
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 3TpnDd6PaY
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 3wTdqmDig6
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 3XXNloi4gV
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 3YhvETOVcv
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 4jFmUBgygR
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 4vG2fYLy6B
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 53IaK7n1np
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 5H5OLdA8qE
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 5ME7YKcHsa
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 5tAchjHlmE
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 5tJnO1Mwzf
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 5VoPA03kvi
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 6AJpxbHYkm
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 6C8RwQ9kGP
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 6hnWZbro0I
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 6JPHCI1K8M
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 6lie6mPCRe
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 6mnK6keHIi
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 6mpTfHgnlX
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 6vigp6VM7d
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 6ZJgIXN3P0
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 71qxiSKgAY
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 74gKRNrKVf
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 77RwxhcZTx
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 7C4OyiuQc4
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 7nMGZvigiL
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 7PFGHcmfa2
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 7sxFwD2jGw
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 82aRYKaCZB
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 88exEg2MMo
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 8IOqsSAWIo
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 8OLXyd5ai0
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 8u4f62oAYb
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 8X1ovlX6ex
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 9CA6eRBprt
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 9GqYmpQsAS
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 9my7brVWmo
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 9NNnGuH7A1
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 9QBLcfEf91
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 a6HPyy5Mz5
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 A8SqBitLRB
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 aFjSvqXqWE
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 AI8sfDgnhT
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 AJtW9NcRLy
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 ANRcGwDkvK
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 ayHSb1kjNd
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 b4BF572o41
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 b957oPA24t
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Bb0kZiNxDz
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 BbreWoCXSv
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 bduLsR7v4K
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 bOKXTvk63r
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 BrJvEu79eg
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 BTf86zJsB3
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 byVoAmiOqs
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 bze36b6xjZ
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 C5KrlOGYlu
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 cDfzzIGULi
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 cF1AG2dtLr
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 cjcKUQDGLl
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 cKiyNtE0yD
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 ClbTpohwVU
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 cStCLsSELl
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 ctnOoPIga1
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 cWRi45wacA
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 cWZv9iI87X
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 cX6YaqFDFY
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 D5JYr3I592
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 dBJSXzmpb1
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Dd9KxIjxSB
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 dK320XCmR0
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 DKiaUm3WBb
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Doi1I9Z8TE
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 dqbKkDKbZl
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 dtLZdglPV3
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Dux6sHDdCW
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 EHm7bcCxj1
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 epBL6naqQR
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 ePj0HMi3nh
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Eqk382soFH
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 eT21MMr22o
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 eT909HWyck
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 ETRyNzIpYk
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 ev8BCScTMa
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 F5Db7l8s9j
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 F9OYJjkGiB
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 fCLOGDR05y
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Fdvgo1aqTT
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 FeBBLsJEYS
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 FJsgrBEwbJ
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 flbjrqIXMS
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 fn95Z2sG3o
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 FYrh0rmC4q
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 G9UhKYNLgv
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 GaMed1WIDN
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 gcb0bfLbVM
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 gfLQDXjJAW
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 Gksn5ca8Jn
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 gOWuBZZgn2
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 GPaN65ikSl
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 gu78Zpnknw
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 gu92R3c92I
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 gupiPOsJzC
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 hb4zKjD5G4
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 hBv1LejGKu
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Hf8ovJhWKI
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 hGCeu2NgZ5
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 HuSBc8QKYi
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 HXq7gqQZ5Z
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 i4CkeVfT7S
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 iCR4qC97HM
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 IE4xWwbydi
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 IiLRIuK1Fi
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 IKeqpTmvmW
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 ioOe8b7TsJ
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 iOplykVsBo
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 ip23ESdwGT
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 IygdcTaoYP
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 iymCtoFUVf
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 j3JsNAEsm1
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 J3K5BY52dp
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 J5feTUwPso
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 jahdjqT54b
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 JArjmQWPVq
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 JBDnoFKLcx
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 JbMcWq9tku
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Jc0EEC4sua
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 JgVwSWAUsr
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 JlhNaDm4f7
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 JnOT2WHKbE
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 jpO4wGMT57
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 JqAekDHYif
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 jrMKucOmtp
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 jVBkVAbTHj
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 jVGv0HeZvG
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 jvyPQ8Z8ht
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 JYdPDFpOIe
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 k2yYJNQcLu
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 K56S3V4AQ6
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 K9kyHBbw7y
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 Kfce3CFjhh
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 KJBdbwTmzD
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 kkIu8kVXLo
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 kOIOppD8hx
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 kp1ujuDGKO
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 krWRFtvYDP
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 kT3eEAfVcY
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 kwmQK5z76U
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 L5DOn3iY18
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 L8ZzpZTLz5
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 LeUtklcfmE
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 LKfMizQQjE
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 lowIuX2RQI
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 LtH4X99Uw3
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 LZ5jebusoa
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 M1vV6QxnH1
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 m59pSiQG2p
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 m7lRDpRTUJ
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 MaqkHpS39h
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 MKQErXMkPE
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 moQuVgMB1f
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 mRET49bBGR
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 mu6c42Y1qo
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 mwILTjPhCP
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 mxG418at98
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 mydABLXwyL
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 n4d9SlSzcV
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 n4MCXv5XM2
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 N5lXyVotHN
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 nBoQgGxoGX
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 NdkrRTZmr9
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 NHag0dTW3U
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 nlgqxKuRC3
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 NLM96g2hH3
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 Nmuh6DvLkc
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 nR711EHtmU
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 nSC9OkT1E3
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 nwt49CVPtC
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 O009zeKkif
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 O0V7mQCicJ
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 o6Q2i1NUXc
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 OAbH1oFg57
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 OaRp7TV8pe
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 ObIefWWqqM
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 OFx3U24MoP
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 OHWTswrtBk
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 ojc7SuLzMV
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 orzpz7CBBQ
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Ou1q6zOh5n
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 oV3aef60WL
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 OXZ3OOGJ7O
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 oZ5HOQe6X0
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 p194n4sSpi
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 p3ARvi0q4F
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 p6PVEBfSyK
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 PaOzJn0sJV
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 PDJdFxfgvh
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 penDnjNMQc
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 pH9s3o8foP
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 pI49N7Zoxn
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Pmf5TqkkYg
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 pO4Lt5DPrX
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 psmL4dk69Y
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 pXXxEWcKkz
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 q4gh4nODZa
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 qFO0JDSF0N
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Qh9GBAd3mF
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 QM053Y9Vw1
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 R0LpA1qK4F
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 R6okint5JZ
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 R82WkcyQAx
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 rcEkx0b0WC
+-rw-r--r-- 1 osc osc   75 Aug  9 20:35 README.txt
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 rgNTkxVkxN
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 RnL5L0QLbY
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 RPZAvV75tm
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 RU4rJzjPfg
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 RWWLnFwGtv
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 rwZwqdxHhJ
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 rzSTDqa7oV
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 SaaZymLdoG
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 SaQtx8SNld
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 sf7ajd5INC
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 skVRxkHK04
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 sNrtW0eiZF
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 SqAZPx7CbA
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 SRgPbWeEG6
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 sRhTcN4PIw
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 sVyNLUXzut
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 T0gYx5T5ks
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 Tbi1MdwiMX
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 tEgA7tGwxB
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 TezFlyJz9o
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 TFkiwAHDrG
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Tt0xmDrg4Y
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 tZCE2HQg8s
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 uAw4PKT7E0
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 udqz57oeuX
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 ufdeX2Dk7C
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 v2ME2J4GuF
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 V64A9vKnYq
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 vkaOISlk2I
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 vLWtq7N2aR
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 VneCQhwmfv
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 vUbRKbYlKR
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Vw5Jm3saUP
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 vz1uLzTKjO
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 VZw2jtUdZD
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 W6AdwbmalK
+-rw-r--r-- 1 osc osc   34 Aug  9 20:35 WfUKyzFeEv
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 WFyKhZdOcx
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 wgibrPHhJq
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 WhTtCYas3M
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 wJC19bchr2
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 WLuasYnMvP
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Wm14GdEGcm
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 wpJyCPLODS
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 wpoGQ7WmSg
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 WSxUR7IJd8
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 wZ4LJKpHW6
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 x2CDPgz6Jk
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 x3Nvoy3Ucl
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 x3SkxfEItU
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 X62Vq1yIyL
+lrwxrwxrwx 1 osc osc   10 Aug  9 20:35 X6lkChFKsj -> WfUKyzFeEv
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 XapfbudtZp
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 xBsGYZHomA
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 xigSiLU79u
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 XkrAGaosYZ
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 xRxKkdCTU8
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 xYCpOSRLsl
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 xYlmccmE5f
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 Y0nB0Ep1my
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 y1IAp2YdZc
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 Ye8R8ZOvJ9
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 ygasPrK3kG
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 YgeyHmPrtP
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 ysdoXYcYQq
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 YVAPjrh8Up
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 zEmK04yIqc
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 ZenzUsQydR
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 zet1AFeHNl
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 zghxQE4JGJ
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 ZNq1fiVP6F
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 zTfi6AwgZQ
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 zxmnKldpmY
+drwxr-xr-x 2 osc osc 4096 Aug  9 20:35 zzgiKI2xSS
+-rw-r--r-- 1 osc osc    0 Aug  9 20:35 zZU6ymQky6
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ cat X6lkChFKsj
+73 bytes is your target file size
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ find -size 73c
+./m7lRDpRTUJ/xVMvVOKNW5
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ cd /m7lRDpRTUJ/
+bash: cd: /m7lRDpRTUJ/: No such file or directory
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ cd ./m7lRDpRTUJ/
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3/m7lRDpRTUJ$ ls
+1204O0idSW  Binpmv9laL  i6u30xsP92  N7xJzk6WzX  se5SfDz4D8  vjhekqgloC
+1bCCZRGCP3  C3ZCLEZzrq  iCpJ8wBQq2  nbkg0Tbooi  SFaRukfNK5  vRbJN3oCei
+1tLJoXdFEx  cmlc365V3X  iDt7gCIQOV  nlc56s7edL  SIiBVT5XpG  WAPVSLBGJp
+2WF03Yxdgm  CZvLOVIhO7  IkD0Kc93ts  nNDDzbFDgI  ssa1bacp3F  Wkh2swDjL7
+3YM1EHLZON  D5g23jQPVs  IVmfWnZKGu  OAHiGcx0jY  svoTVwu3Gh  wTiXKTqwfC
+4RHGy6IOSt  DbOxzdWwvV  IZKBNTU02o  oLeRCAOaT4  SXfN5VyJC1  x0tflVoEoO
+5UoS4swAbG  e6Tw4G6vkb  J18pIlZSbj  PAyQtx6GB1  TdfHEaeirn  x9CSQNEVjE
+60SWKf61He  EAWdAFGbxf  j7QpDNmBD7  PB0DYshX73  tIMSWkYsun  xDpUAdVCLC
+6m74yd7cI9  ECBxKuouhR  JE6hnwqIgj  PmB4iJFTFB  tiStWqDaVb  xKO4p8WwNC
+71dGwY7RAS  ETzNsIhFSh  K8QCoBIctX  PMp0lDQTYx  tntCZ8u1xi  xVMvVOKNW5
+74nsBmhMC3  f2eGz5NKur  knoHOHY78g  PWLFYrquMP  TomKpe0mD0  ybI2S3pZFm
+8VB0glwYod  FjhvGNg8Rw  lvwScjhd7D  QOW3NTbKjY  tx4RZgKOLD  ymqTENE3jY
+9HqP1kDuSl  GAVRSOhw50  M1zxxvd1eC  RaXvrEJu4H  TylxxsM72k  yUrN6JREYC
+a6KN771BPV  H0As0BrH5Y  m8q6s6WOxG  rEbxPsvJxP  uhJnWqqhFH  ZbG73LAmPB
+AlQLa7wIM8  HdCe5ZBwRJ  mn3e6Ukeu5  rEgcbMGD1X  UiOdxpQLGg  ZPjJENA107
+ApKtojXYfl  HHJQG3WBVK  MOyiOWLVjV  rGhJCRs7FJ  Uw0gGZm5YB
+apvmVmfiQP  HM1rw0RpJv  mTwkfDKUxV  RTZ0Q5Fvz7  uXSht4UWOr
+b4bMOBravk  HqTpd7tcQ2  n0WG0kEz4U  rvcjXWFVMX  vd9wQvpzfs
+BdHMXUF3Kz  hyIwkpJEDN  N1fQlnGzCp  saw1DFRZUf  VfkLDe3f33
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3/m7lRDpRTUJ$ cat xVMvVOKNW5
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3/m7lRDpRTUJ$ cat xVMvVOKNW5
+Congrats!! You have finished the Task Successfully, you can rest now :D.
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3/m7lRDpRTUJ$ 
+osc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3/m7lRDosc@pop-os:~/Downloads/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3/m7lRDpRTUJ$ 
+
+
