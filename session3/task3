@@ -1,1 +1,14 @@
+osc@pop-os:~$ sudo useradd osc
+useradd: user 'osc' already exists
+osc@pop-os:~$ sudo passwd osc
+New password: 
+Retype new password: 
+passwd: password updated successfully
+osc@pop-os:~$ sudo groupadd osc_group
+groupadd: group 'osc_group' already exists
+osc@pop-os:~$ sudo usermod -aG osc_group osc
+osc@pop-os:~$ sudo usermod -aG sudo osc
+osc@pop-os:~$ su - osc
+Password: 
+osc@pop-os:~$ 
 
