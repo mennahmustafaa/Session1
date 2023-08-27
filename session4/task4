@@ -1,0 +1,60 @@
+sc@pop-os:~$ username=$(whoami)
+
+osc@pop-os:~$ kernel_version=$(uname -r)
+
+osc@pop-os:~$ echo "Username: $username"
+Username: osc
+
+osc@pop-os:~$ echo "kernel version: $kernel_version"
+kernel version: 6.2.6-76060206-generic
+
+
+osc@pop-os:~$ chmod +x file_check.sh
+
+osc@pop-os:~$ ./file_check.sh file1.txt /home/osc/Documents
+
+File does not exist
+
+osc@pop-os:~$ ls
+
+osc@pop-os:~$ chmod +x calculator.sh
+
+osc@pop-os:~$ ./calculator.sh
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice: 1
+Enter the first number: 10
+Enter the second number: 20
+10 + 20 = 30
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice: 2
+Enter the first number: 10
+Enter the second number: 20
+10 - 20 = -10
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice: 5
+Exiting...
+osc@pop-os:~$ chmod +x file_check.sh
+osc@pop-os:~$ ls
+calculator.sh  file_check.sh  Music               Public           testfile.txt
+Desktop        file.txt       permisson_practise  rename_files.sh  Videos
+Downloads      mennahmustafa  Pictures            Templates        zyad
+osc@pop-os:~$ ./file_check.sh
+Usage: ./file_check.sh <filename> <directory>
+osc@pop-os:~$ ls
+calculator.sh  file_check.sh  Music               Public           testfile.txt
+Desktop        file.txt       permisson_practise  rename_files.sh  Videos
+Downloads      mennahmustafa  Pictures            Templates        zyad
+osc@pop-os:~$ 
+
